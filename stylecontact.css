@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Стиль шапки */
+header {
+  background-color: #f0891b;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Стиль логотипа */
+.logo img {
+  width: 45px;
+  height: auto;
+}
+/* Стиль навигационного меню */
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.menu li {
+  margin-right: 10px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* Добавленные стили */
+.menu li a:hover {
+  font-size: 18px;
+  transition: font-size 0.3s ease-in-out; /* Плавный переход размера текста */
+}
+/* Стиль значка корзины */
+.menu li.cart-item {
+  position: relative;
+}
+.menu li.cart-item img {
+  width: 21px;
+  height: auto;
+  margin-right: 5px;
+}
+/* Стиль значка учетной записи */
+.menu li.account-item {
+  position: relative;
+}
+.menu li.account-item img {
+  width: 21px;
+  height: auto;
+  margin-right: 5px;
+}
+/* Стиль основного блока */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.info {
+  padding: 40px;
+  margin: 10px;
+  background-color: #cbcaca;
+  border-radius: 5px;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+a:hover {
+  text-decoration: none;
+}
+/* Стиль подвала */
+footer {
+  background-color: #f0891b;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* Стиль логотипа */
+.footer-logo img {
+  width: 45px;
+  height: auto;
+}
+/* Стиль ссылок на социальные сети */
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+.social-icons img {
+  width: 23px;
+  height: auto;
+  margin-right: 10px;
+}

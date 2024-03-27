@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "TildaSans";
+  src: url("path-to-font/TildaSans.ttf") format("truetype");
+  /* Добавьте другие форматы шрифта, если есть */
+}
+
+/* Примените шрифт к элементам */
+.selector {
+  font-family: "TildaSans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+}
+/* Стиль шапки */
+header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Стиль логотипа */
+.logo img {
+  width: 100px;
+  height: auto;
+}
+/* Стиль навигационного меню */
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.menu li {
+  margin-right: 10px;
+}
+/* Добавленные стили */
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+.menu li a:hover {
+  font-size: 18px;
+  transition: font-size 0.3s ease-in-out;
+}
+/* Стиль значка корзины */
+.menu li.cart-item {
+  position: relative;
+}
+.menu li.cart-item img {
+  width: 21px;
+  height: auto;
+  margin-right: 5px;
+}
+/* Стиль значка учетной записи */
+.menu li.account-item {
+  position: relative;
+}
+.menu li.account-item img {
+  width: 21px;
+  height: auto;
+  margin-right: 5px;
+}
+/* Основного блока */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e7e6e6;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.product-price {
+  font-weight: bold;
+}
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+  border-top: 1px solid #888;
+  padding-top: 10px;
+}
+/* Стиль "количества" */
+.quantity {
+  display: flex;
+  align-items: center;
+}
+.quantity button {
+  width: 20px;
+  height: 20px;
+  background-color: #ff3be2;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.quantity input {
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #888;
+  margin: 0 10px;
+}
+.cart-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.cart-product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.product-image {
+  flex: 0 0 80px;
+  margin-right: 20px;
+}
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+.product-info {
+  flex: 1;
+}
+.product-info h3 {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.product-info p {
+  font-size: 15px;
+  margin: 0;
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.order-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ff3be2;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 38%;
+}
+.order-button:hover {
+  background-color: #fff;
+  color: #3a96d2;
+}
+/* Стиль фото (для того, чтобы не менялся размер логотипа, соц. сетей и т.д.) */
+img:not(.header-logo):not(.footer-logo-img):not(.cart-icon-img):not(
+    .account-icon-img
+  ):not(.social-icon-img) {
+  max-width: 150%;
+  max-height: 150%;
+}
+/* Стиль подвала */
+footer {
+  background-color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 466px;
+}
+/* Стиль логотипа */
+.footer-logo img {
+  width: 45px;
+  height: auto;
+}
+/* Стиль ссылок на социальные сети */
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+.social-icons img {
+  width: 35px;
+  height: auto;
+  margin-right: 10px;
+}
+
+footer p {
+  color: white;
+  font-size: 18px;
+}
